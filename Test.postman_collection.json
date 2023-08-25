@@ -1,0 +1,491 @@
+{
+	"info": {
+		"_postman_id": "480f8445-6f2a-4c3e-9398-658ccce9c6cf",
+		"name": "Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23246412"
+	},
+	"item": [
+		{
+			"name": "A",
+			"item": [
+				{
+					"name": "C2",
+					"item": [
+						{
+							"name": "200",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{        \n              \"coord\": {\n                \"lat\": 327.91,\n                \"lon\": 602.307\n            },\n            \"name\": \"Vick Daviau\",\n            \"planet\": \"Kaomia\",\n            \"referalCode\": \"IetohYee8s\",\n            \"email\": \"VickDaviau@dayrep.com\",\n            \"phone\": \"A36EC7B78F6C12BD\",\n            \"birthday\": \"1934-12-05T00:00:00.000Z\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:7187/customers/5fc125a21633312494c42689",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7187",
+									"path": [
+										"customers",
+										"5fc125a21633312494c42689"
+									],
+									"query": [
+										{
+											"key": "_body",
+											"value": "false",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "204",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n                \"coord\": {\n                \"lat\": -645.39,\n                \"lon\": 884.925\n            },\n            \"_id\": \"5fc125a21633312494c42723\",\n            \"name\": \"Dennis Test\",\n            \"planet\": \"Pualia\",\n            \"referalCode\": \"koonaihiM9\",\n            \"email\": \"DennisNMooneyhan@einrot.com\",\n            \"phone\": \"89B9D3A343B2B5DB\",\n            \"birthday\": \"1935-06-14T00:00:00.000Z\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:7187/customers/5fc125a21633312494c42723?_body=false",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7187",
+									"path": [
+										"customers",
+										"5fc125a21633312494c42723"
+									],
+									"query": [
+										{
+											"key": "_body",
+											"value": "false"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "404",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n                \"coord\": {\n                \"lat\": -645.39,\n                \"lon\": 884.925\n            },\n            \"_id\": \"5fc125a21633312494c42723\",\n            \"name\": \"Dennis Test\",\n            \"planet\": \"Pualia\",\n            \"referalCode\": \"koonaihiM9\",\n            \"email\": \"DennisNMooneyhan@einrot.com\",\n            \"phone\": \"89B9D3A343B2B5DB\",\n            \"birthday\": \"1935-06-14T00:00:00.000Z\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:7187/customers/4fc125a21633312494c42723",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7187",
+									"path": [
+										"customers",
+										"4fc125a21633312494c42723"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "409",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n                \"coord\": {\n                \"lat\": -645.39,\n                \"lon\": 884.925\n            },\n            \"_id\": \"5fc125a21633312494c42723\",\n            \"name\": \"Dennis Test\",\n            \"planet\": \"Pualia\",\n            \"referalCode\": \"koonaihiM9\",\n            \"email\": \"EdwardJBuss@einrot.com\",\n            \"phone\": \"89B9D3A343B2B5DB\",\n            \"birthday\": \"1935-06-14T00:00:00.000Z\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:7187/customers/5fc125a21633312494c42723",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7187",
+									"path": [
+										"customers",
+										"5fc125a21633312494c42723"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "422",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n                \"coord\": {\n                \"lat\": -645.39,\n                \"lon\": 884.925\n            },\n            \"_id\": \"5fc125a21633312494c42723\",\n            \"name\": \"Dennis Test\",\n            \"planet\": \"Pualias\",\n            \"referalCode\": \"koonaihiM9\",\n            \"email\": \"DennisNMooneyhan@einrot.com\",\n            \"phone\": \"89B9D3A343B2B5DB\",\n            \"birthday\": \"1935-06-14T00:00:00.000Z\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:7187/customers/5fc125a21633312494c42723",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7187",
+									"path": [
+										"customers",
+										"5fc125a21633312494c42723"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "C3",
+					"item": [
+						{
+							"name": "200",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:7187/customers?planet=Phillon HZZK&page=1&limit=5",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7187",
+									"path": [
+										"customers"
+									],
+									"query": [
+										{
+											"key": "planet",
+											"value": "Phillon HZZK"
+										},
+										{
+											"key": "page",
+											"value": "1"
+										},
+										{
+											"key": "limit",
+											"value": "5"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "P2",
+					"item": [
+						{
+							"name": "200",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:7187/pizzerias/5fc125a21633312494c41bf8?embed=orders",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7187",
+									"path": [
+										"pizzerias",
+										"5fc125a21633312494c41bf8"
+									],
+									"query": [
+										{
+											"key": "embed",
+											"value": "orders"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "404",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:7187/pizzerias/4fc125a21633312494c41bf1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7187",
+									"path": [
+										"pizzerias",
+										"4fc125a21633312494c41bf1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "B",
+			"item": [
+				{
+					"name": "P1",
+					"item": [
+						{
+							"name": "200",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:7187/pizzerias?page=1&limit=5&speciality=Bacon",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7187",
+									"path": [
+										"pizzerias"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										},
+										{
+											"key": "limit",
+											"value": "5"
+										},
+										{
+											"key": "speciality",
+											"value": "Bacon"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "C1",
+					"item": [
+						{
+							"name": "201",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n            \"coord\": {\r\n                \"lat\": 120,\r\n                \"lon\": 56\r\n            },\r\n            \"name\": \"Tom Strohmeier\",\r\n            \"planet\": \"Phillon HZZK\",\r\n            \"referalCode\": \"Ookuuh6wuQuee\",\r\n            \"email\": \"test60.com\",\r\n            \"phone\": \"FF042108A555616C\",\r\n            \"birthday\": \"1934-11-25T00:00:00.000Z\"\r\n        }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:7187/customers",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7187",
+									"path": [
+										"customers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "204",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n            \"coord\": {\r\n                \"lat\": 0,\r\n                \"lon\": 0\r\n            },\r\n            \"name\": \"Tom Strohmeier\",\r\n            \"planet\": \"Phillon HZZK\",\r\n            \"referalCode\": \"Ookuuh6wuQuee\",\r\n            \"email\": \"test64.com\",\r\n            \"phone\": \"FF042108A555616C\",\r\n            \"birthday\": \"1934-11-25T00:00:00.000Z\"\r\n        }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:7187/customers?_body=false",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7187",
+									"path": [
+										"customers"
+									],
+									"query": [
+										{
+											"key": "_body",
+											"value": "false"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "409",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n            \"coord\": {\r\n                \"lat\": 0,\r\n                \"lon\": 0\r\n            },\r\n            \"name\": \"Tom Strohmeier\",\r\n            \"planet\": \"Phillon HZZK\",\r\n            \"referalCode\": \"Ookuuh6wuQuee\",\r\n            \"email\": \"test51.com\",\r\n            \"phone\": \"FF042108A555616C\",\r\n            \"birthday\": \"1934-11-25T00:00:00.000Z\"\r\n        }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:7187/customers",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7187",
+									"path": [
+										"customers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "422",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n            \"coord\": {\r\n                \"lat\": 0,\r\n                \"lon\": 0\r\n            },\r\n            \"name\": \"Tom Strohmeier\",\r\n            \"planet\": \"bob\",\r\n            \"referalCode\": \"Ookuuh6wuQuee\",\r\n            \"email\": \"test70.com\",\r\n            \"phone\": \"FF042108A555616C\",\r\n            \"birthday\": \"1934-11-25T00:00:00.000Z\"\r\n        }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:7187/customers",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7187",
+									"path": [
+										"customers"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "O2",
+					"item": [
+						{
+							"name": "200",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:7187/orders/pizzerias/5fc125a21633312494c41f99/order/637cd5b82ee13227103213d3",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7187",
+									"path": [
+										"orders",
+										"pizzerias",
+										"5fc125a21633312494c41f99",
+										"order",
+										"637cd5b82ee13227103213d3"
+									],
+									"query": [
+										{
+											"key": "embed",
+											"value": "customer",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "404",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:7187/orders/pizzerias/5fc125a21733312494c41f99/order/637cd5b82ee13227103213d3",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7187",
+									"path": [
+										"orders",
+										"pizzerias",
+										"5fc125a21733312494c41f99",
+										"order",
+										"637cd5b82ee13227103213d3"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

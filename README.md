@@ -1,2 +1,3 @@
-# nodeJs_REST_api
-API RESt dans le cadre du cours echange de donnees
+# TP_SYNTHESE_ECHANGEDONNE
+Samuel Gascon 2151866 A
+Tom Strohmeier 1232614 B
