@@ -1,3 +1,1 @@
-# TP_SYNTHESE_ECHANGEDONNE
-Samuel Gascon 2151866 A
-Tom Strohmeier 1232614 B
+API REST sur node.js, mangoo DB.
